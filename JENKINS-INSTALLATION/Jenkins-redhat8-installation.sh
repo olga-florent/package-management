@@ -22,5 +22,5 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 # you can check the status of the jenkins service using the command:
 sudo systemctl status jenkins
-sudo su -ec2-user
+sudo su - ec2-user
 echo "echo of jenkins installation"
